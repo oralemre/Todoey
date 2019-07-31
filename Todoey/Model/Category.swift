@@ -11,6 +11,7 @@ import RealmSwift
 
 class Category: Object {
     @objc dynamic var name: String = ""
+    @objc dynamic var categoryColor : String = ""
     let items = List<Item>() // forward relationship
 //    let  array : Array<Int> = [1,2,3] valid syntax
 //    let array = Array<Int>() empty array of integers
